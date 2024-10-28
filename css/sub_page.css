@@ -224,6 +224,9 @@
   color: #0060B0;
   font-size: var(--text-size-16);
 }
+.img-info-list.eng-padding{
+  padding-right: 50px;
+}
 .img-info-list-title{
   font-weight: 700;
   line-height: 1.5;
