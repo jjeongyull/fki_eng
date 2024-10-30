@@ -11,6 +11,7 @@
 }
 .img-link{
   position: relative;
+  cursor: unset;
 }
 .img-link-2{
   position: relative;
@@ -127,6 +128,18 @@
   padding-bottom: 40px;
   border-bottom: 1px solid #0060B0;
 }
+.div-content-mb-gold{
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #81765B;
+}
+.po-text-card{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: var(--text-size-14);
+  color: #333;
+}
 
 /* 공통 컴포넌트 */
 
@@ -201,7 +214,7 @@
   width: 100%;
 }
 .img-info-p{
-  font-size: var(--text-size-16);
+  font-size: var(--text-size-14);
   word-break: keep-all;
   line-height: 1.4;
 }
@@ -745,8 +758,10 @@ ul .swiper-txt p{
 }
 .icon-card-img{
   position: absolute;
-  top: 32px;
-  right: 32px;
+  /* top: 32px; */
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .icon-title-p{
   color: #7B806B;
@@ -779,6 +794,7 @@ ul .swiper-txt p{
   display: flex;
   align-items: center;
   gap: 60px;
+  justify-content: center;
 }
 .cir-line{
   width: 100px;
@@ -792,7 +808,10 @@ ul .swiper-txt p{
   color: #757575;
   text-align: center;
 }
-
+.flex-center{
+  display: flex;
+  align-items: center;
+}
 /* sub_61 명화로 읽는 경영·경제 */
 .img-text-flex-box{
   display: flex;
@@ -1264,8 +1283,7 @@ ul .swiper-txt p{
     padding: 20px;
   }
   .icon-card-img{
-    top: 20px;
-    right: 20px;
+
   }
   .cir-img-div{
     flex-direction: column;

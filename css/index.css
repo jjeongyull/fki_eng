@@ -29,6 +29,9 @@
   z-index: 2;
   width: 100%;
 }
+.main-2-div-box-text-1, .main-2-div-box-text-2{
+  line-height: 1.3;
+}
 .slide-p{
   font-size: var(--text-size-24);
 }
